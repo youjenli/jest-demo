@@ -1,0 +1,15 @@
+{
+  "name": "jest-demo",
+  "version": "1.0.0",
+  "description": "A jest test framework demonstration project.",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^27.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "youjenli1124@gmail.com",
+  "license": "ISC"
+}

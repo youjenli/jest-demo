@@ -1,0 +1,2 @@
+var doSomething;
+var doSomethingElse;

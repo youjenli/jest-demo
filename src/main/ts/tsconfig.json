@@ -3,7 +3,8 @@
       "target": "ES6",
       "module":"none",
       "moduleResolution": "Node",
-      "forceConsistentCasingInFileNames": true
+      "forceConsistentCasingInFileNames": true, 
+      "outFile":"../../../dist/index.js"
     },
     "files":["./global.ts", "./globalFunction.ts"]
 }

@@ -11,7 +11,7 @@
     "typescript": "^4.3.5"
   },
   "scripts": {
-    "build": "tsc --project ./src/main/ts/tsconfig.json --outFile ./dist/index.js",
+    "build": "tsc --project ./src/main/ts/tsconfig.json",
     "test": "jest"
   },
   "author": "youjenli1124@gmail.com",

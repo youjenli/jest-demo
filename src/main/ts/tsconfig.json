@@ -6,5 +6,5 @@
       "forceConsistentCasingInFileNames": true, 
       "outFile":"../../../dist/index.js"
     },
-    "files":["./global.ts", "./globalFunction.ts"]
+    "files":["./globalFunction.ts"]
 }

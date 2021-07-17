@@ -1,4 +1,4 @@
-import '../../ts/main/globalFunction';
+import '../../main/ts/globalFunction';
 
 test('demo', () => {
     expect(doSomething()).not.toBe(5);

@@ -1,5 +1,12 @@
+const tsConfigForTest = require('./src/test/ts/tsconfig.json');
+
 module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'node',
-  testRegex: '(/src/ts/test/.*|(\\.|/)(test|spec))\\.tsx?$'
+  testRegex: '(src/test/ts/.*|(\\.|/)(test|spec))\\.tsx?$',
+  globals:{
+    "ts-jest":{
+      tsConfig:tsConfigForTest
+    }
+  }
 };

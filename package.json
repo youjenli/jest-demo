@@ -2,7 +2,8 @@
   "name": "jest-demo",
   "version": "1.0.0",
   "description": "A jest test framework demonstration project.",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types":"./dist/index.d.ts",
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^26.0.24",

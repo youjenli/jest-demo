@@ -1,5 +1,5 @@
-/// <reference path="./global.ts" />
-
+var doSomething:() => number;
+var doSomethingElse:() => number;
 (function(){
     doSomething = ():number => {
         console.log('do something');

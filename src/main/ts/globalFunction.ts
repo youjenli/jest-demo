@@ -1,5 +1,5 @@
-var doSomething;
-var doSomethingElse;
+var doSomething:() => number;
+var doSomethingElse:() => number;
 (function(){
     doSomething = ():number => {
         console.log('do something');

@@ -4,7 +4,8 @@
       "module":"none",
       "moduleResolution": "Node",
       "forceConsistentCasingInFileNames": true, 
-      "outFile":"../../../dist/index.js"
+      "outFile":"../../../dist/index.js",
+      "composite": true
     },
     "files":["./globalFunction.ts"]
 }

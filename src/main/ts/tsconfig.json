@@ -5,7 +5,6 @@
       "moduleResolution": "Node",
       "forceConsistentCasingInFileNames": true, 
       "outFile":"../../../dist/index.js",
-      "declaration": true,
       "composite": true
     },
     "files":["./globalFunction.ts"]
